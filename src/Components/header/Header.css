@@ -1,0 +1,14 @@
+@keyframes slidein {
+    from {
+      transform: translateX(150vw) scaleX(2);
+    }
+  
+    to {
+      transform: translateX(0) scaleX(1);
+    }
+  }
+  
+  .animate-slidein {
+    animation: slidein 0.5s ease-in-out;
+  }
+  

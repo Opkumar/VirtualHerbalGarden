@@ -1,0 +1,312 @@
+{
+  "plants": [
+    {
+      "name": "Neem",
+      "imgUrl": "https://urbanveda.com/cdn/shop/articles/shutterstock_458073130-2-min-min.jpg?v=1709122060",
+      "description": [
+        "Neem is considered a part of Ayurvedic medicine. Neem is also known as the' village pharmacy'. ",
+        "All parts of neem are used for preparing many different medicines, especially for skin disease. A compound from the Neem tree can be used as a spermicide "
+      ],
+      "category": "Ayurveda",
+      "botanicalName": "Azadirachta indica",
+      "unique": "Neem leaves are applied as a poultice on sores. Neem is used in the production of praffin candles, and as a dye for ivory and some fabrics.",
+      "disease": ["Stomach ulcer", "flatulence"],
+      "youtubeVideoLink": "https://www.youtube.com/watch?v=2n0r52gUUMo&pp=ygUWTmVlbSB0cmVlIGludHJvZHVjdGlvbg%3D%3D",
+      "benefit": [
+        {
+          "title": "Increases Immunity",
+          "detail": "Neem is known for its antimicrobial and antibacterial effects. These properties play a huge role in boosting immunity."
+        },
+        {
+          "title": "Reduces Joint Pain",
+          "detail": "Application of neem oil or extract on the affected area can help reduce pain and discomfort. Hence it is widely used for treating arthritis."
+        },
+        {
+          "title": "Prevents Gastrointestinal Diseases",
+          "detail": "Neem's anti-inflammatory properties help reduce inflammation of the gastrointestinal tract which helps reduce a series of diseases like constipation, stomach ulcer, flatulence, etc."
+        },
+        {
+          "title": "Nourishes Skin",
+          "detail": "Neem is a rich source of Vitamin E which help repair damaged skin cells."
+        }
+      ]
+    },
+    {
+      "name": "Ashwagandha",
+      "imgUrl": "https://www.dabur.com/Medical%20Plants/Ashwagandha%20%281%29.jpg",
+      "description": [
+        "The herb is also known as Indian ginseng or winter cherry. The name “ashwagandha” describes the smell of its root",
+        "Practitioners use this herb as a general tonic to boost energy and reduce stress and anxiety."
+      ],
+      "category": "Ayurveda",
+      "botanicalName": "withania somnifera",
+      "unique": "The Ashwagandha plant has a potent root that is famous for its many health benefits. It improvises the functioning of your brain, boosts your energy level and",
+      "disease": ["Lower blood pressure", "  Reduce swelling"],
+      "youtubeVideoLink": "https://www.youtube.com/watch?v=THZHctCSmUk&pp=ygUdQXNod2FnYW5kaGEgVHJlZSBpbnRyb2R1Y3Rpb24%3D",
+      "benefit": [
+        {
+          "title": "Controls Diabetes",
+          "detail": "One of the Ashwagandha benefits is to control diabetes. Ashwagandha stimulates the pancreas to secrete insulin which helps lower blood sugar levels and hence control diabetes."
+        },
+        {
+          "title": "Increase Fertility in Men",
+          "detail": "Ashwagandha uses also include increasing sperm count & motility. It helps increase testosterone levels and significantly boosts sperm quality and fertility in men"
+        },
+        {
+          "title": "Boosts Immunity",
+          "detail": "Studies have shown that consumption of Ashwagandha helps boost immunity. Withania Somnifera also helps improve white blood cells & red blood cells."
+        },
+        {
+          "title": "Boosts Thyroid Function",
+          "detail": "Ashwagandha may be able to benefit people with low thyroid function since animal studies show that it has a thyroid hormone balancing effect. Withania Somnifera root extract if given on a daily basis, can increase the secretion of thyroid hormones."
+        }
+      ]
+    },
+    {
+      "name": "Tulsi",
+      "imgUrl": " https://gachwala.in/wp-content/uploads/2022/06/tulsi-plant.jpg",
+      "description": [
+        " Ayurveda, tulsi is known as “The Incomparable One,” “Mother Medicine of Nature” and “The Queen of Herbs",
+        " Tulsi plant is a medicinal herb. Tulsi is used to make tea, as a seasoning, and as a supplement to reduce stress."
+      ],
+      "category": "Ayurveda",
+      "botanicalName": "ocimum sanctum",
+      "unique": " The class to which tulsi belongs is Magnoliopsida which represents the class of flowering plants.",
+      "disease": ["Flu", "Asthama"],
+      "youtubeVideoLink": " https://www.youtube.com/watch?v=QX4asd8Rna4&pp=ygUeVHVsc2kgdHJlZSBwbGFudHMgaW50cm9kdWN0aW9u",
+      "benefit": [
+        {
+          "title": " Treats Kidney Stones",
+          "detail": " Tulsi acts a mild diuretic & detoxifying agent which helps in lowering the uric acid levels in the body. Acetic acid present in holy basil helps in the breakdown of the stones."
+        },
+        {
+          "title": " Relives Fever",
+          "detail": " Tulsi is an age-old ingredient for treating fever. It is one of the prime ingredients in the formulation of various ayurvedic medicines & home remedies."
+        },
+        {
+          "title": " Eye Health",
+          "detail": " Tulsi's anti-inflammatory properties help promote eye health by preventing viral, bacterial and fungal infections. It also soothes eye inflammation and reduces stress."
+        },
+        {
+          "title": " Rich Source of Vitamin K",
+          "detail": " Vitamin K is an essential fat-soluble vitamin that plays an important role in bone health and heart health."
+        }
+      ]
+    },
+    {
+      "name": "Mulethi",
+      "imgUrl": " https://www.deepayurveda.com/wp-content/uploads/2022/07/76658788-300x225.webp",
+      "description": [
+        " Mix powdered mulethi in bathing water to soothe skin rashes.",
+        " Mulethi is an emollient which helps maintain skin health. Mix powdered mulethi with rose water for oily skin, or with milk for dry skin, to combat de-pigmentation."
+      ],
+      "category": "Ayurveda",
+      "botanicalName": "Glycyrrizha",
+      "unique": " Yashtimadhu has been conventionally used by Ayurveda in the treatment of respiratory and digestive disorders. It is considered to be a",
+      "disease": [" Respiratory issues,", "Liver Damage"],
+      "youtubeVideoLink": " https://www.youtube.com/watch?v=K50jCjVXakw&pp=ygUgTXVsZXRoaSB0cmVlIHBsYW50cyBpbnRyb2R1Y3Rpb24%3D",
+      "benefit": [
+        {
+          "title": " Reduces Stress & Depression",
+          "detail": " Mulethi benefits include relieving people suffering from the problem of depression. Including licorice root in your daily diet, helps in controlling stress hormones, reducing depression, anxiety and stress."
+        },
+        {
+          "title": " Boosts Immunity",
+          "detail": " Mulethi benefits include boosting your immunity system, which helps in giving your body the strength to fight many diseases and illnesses. This helps your body from being affected by harmful diseases."
+        },
+        {
+          "title": " Keeps your Liver Healthy",
+          "detail": " Licorice root is considered to be an effective option for keeping your liver, healthy and free from diseases. This helps in protecting your body from being damaged by free radicals and also helps in treating jaundice thus keeping your liver healthy."
+        },
+        {
+          "title": " Weight Management",
+          "detail": " Licorice root is considered to be an extremely effective remedy or weight loss, including licorice root in your diet, along with rigors exercise routine will help in burning excess fat from your body."
+        }
+      ]
+    },
+    {
+      "name": "Aloe Vera",
+      "imgUrl": " https://www.lotusherbals.com/cdn/shop/files/Aloe_Vera_9685987d-616b-471a-b5d6-46695d739ab5_600x.jpg?v=1712989712",
+      "description": [
+        " aloe has been used for skin conditions and was thought to improve baldness and promote wound healing.",
+        " Aloe is a cactus-like plant that grows in hot, dry climates. It is cultivated in subtropical regions around the world, including the southern border areas of Texas, New Mexico, Arizona, and California."
+      ],
+      "category": "Ayurveda",
+      "botanicalName": "Aloe barbadensis",
+      "unique": " Aloe vera is a succulent plant species of the genus Aloe. It is widely distributed, and is considered an invasive species in many world regions",
+      "disease": [" Burning mouth syndrome", "Radiation-induced skin toxicity"],
+      "youtubeVideoLink": "https://www.youtube.com/watch?v=F06wSDOyIqM&pp=ygUJQWxvZSB2ZXJh",
+      "benefit": [
+        {
+          "title": "Lower Blood Sugar",
+          "detail": " A past clinical trial found that 2 tablespoons of aloe vera juice every day for two weeks lowered blood sugar levels among people with type 2 diabetes"
+        },
+        {
+          "title": "Skin-Care Ingredient ",
+          "detail": "Aloe vera is an “it” ingredient as a skin treatment in the beauty and cosmetics space as well"
+        },
+        {
+          "title": "Less Heartburn ",
+          "detail": "Researchers found that a standardized aloe vera extract in a syrup had therapeutic benefits for gastroesophageal reflux disease (GERD) and led to a decrease in symptoms such as heartburn, belching, and vomiting over a four-week period."
+        },
+        {
+          "title": " Wound Healing",
+          "detail": " Although aloe products may not be as effective for treating sunburns, per research, it may provide some relief after minor burns, such as a first- or second-degree burn"
+        }
+      ]
+    },
+    {
+      "name": "Varun",
+      "imgUrl": " https://nestreeo.com/wp-content/uploads/2020/02/Sacred-Barna-Varun-Tree-Plant-1.jpg",
+      "description": [
+        " It is a natural diuretic and a blood purifier herb that aids to keep the homeostasis of the human body",
+        "  Varuna bark is used extensively for healing painful kidney stones and has been in use since Vedic times"
+      ],
+      "category": "Ayurveda",
+      "botanicalName": "crataeva nurvala",
+      "unique": " Three leaved caper, barun, baruna, crataeva, borun, holy garlic pear, scared lingam tree and triune",
+      "disease": [" healing painful kidney stones ", " swelling"],
+      "youtubeVideoLink": " https://youtu.be/e_IqOhdGtxc?si=sV4Fw7QPnoWsa2G1",
+      "benefit": [
+        {
+          "title": " Digestive Stimulant",
+          "detail": " This herbal formulation may help ease constipation owing to its natural laxative action, which aids to loosen stools and regularise bowel movement. It is attributed to having an anti-inflammatory action that aids to lower inflammation and joint pain caused by gout."
+        },
+        {
+          "title": " Renal Stones",
+          "detail": " This medicinal plant is valuable in treating urinary stones. Mutrashmari (renal stones in Ayurveda) is a disorder of Vatta-Kapha origin which results in Sanga(obstruction) in the Mutravaha Srotas (urinary system)"
+        },
+        {
+          "title": " Treats Urinary Tract Infection",
+          "detail": " Muktrakcchra (UTI in Ayurveda) means ooze and kricha painful micturition. Severe urinary tract infection is associated with dysuria and painful urination."
+        },
+        {
+          "title": "  Benign Prostatic Hyperplasia (BHP)",
+          "detail": " Benign prostatic hyperplasia (BHP) is a common cause of lower UTI symptoms in elderly men. This condition is quite alike to Vatashtila (as per Ayurveda) and the condition gets worsened due to Vata dosha that gets confined in between the urinary bladder and rectum. "
+        }
+      ]
+    },
+    {
+      "name": "Basil",
+      "imgUrl": " https://draxe.com/wp-content/uploads/2017/12/BenefitsofBasilHeader.jpg",
+      "description": [
+        " Basil, (Ocimum basilicum), annual herb of the mint family (Lamiaceae), grown for its aromatic leaves",
+        " The leaves are used fresh or dried to flavour meats, fish, salads, and sauces; basil tea is a stimulant."
+      ],
+      "category": "Ayurveda",
+      "botanicalName": "ocimum basilicum",
+      "unique": " Basil should be used fresh. In recipes it is generally added at the last moment. Cooking it quickly destroys the meal. ",
+      "disease": [" constipation", "  intestinal gas"],
+      "youtubeVideoLink": " https://youtu.be/_pR2Qi7AYvo?si=BjBMPXjy8bwQuuZW",
+      "benefit": [
+        {
+          "title": " Protect your stomach",
+          "detail": " decreasing stomach acidincreasing mucus secretion increasing mucus cells extending life of mucus cells"
+        },
+        {
+          "title": " Lower your cholesterol",
+          "detail": " Since holy basil targets metabolic stress, it can also help with weight loss and cholesterol levels."
+        },
+        {
+          "title": " Lower your blood sugar",
+          "detail": " If you have prediabetes or type 2 diabetes, all parts of the holy basil plant can help reduce your blood sugar. Animal Trusted Source and human studies have shown that holy basil can help prevent symptoms of diabetes"
+        },
+        {
+          "title": " Protect against infection and treat wounds",
+          "detail": " Extracts made from its leaves are thought to boost wound healing speed and strength. Holy basil is antibacterial"
+        }
+      ]
+    },
+    {
+      "name": "Meetha vish",
+      "imgUrl": " https://www.dabur.com/Medical%20Plants/Meethavish%20Plant_0.jpg ",
+      "description": [
+        " This plant has hermaphrodite flowers and i .Alkaline and partial to full sun with moderate moisture.",
+        " A deciduous perennial that grows to 1.0 meters (3.3 feet) high by 0.5 meters (1.65 feet) wide and prefers many types of soil with a pH ranging from acid to alkaline and partial to full sun with moderate moisture."
+      ],
+      "category": "Ayurveda",
+      "botanicalName": "Aconitum Ferox",
+      "unique": " Meethavish plant is one of the most ancient home remedies for fever. ",
+      "disease": ["Piles", "Asthama"],
+      "youtubeVideoLink": " https://youtu.be/Du0vGNHdqZY?si=IG6gkVL0Q3_KAaFK",
+      "benefit": [
+        {
+          "title": " Indigestion ",
+          "detail": " Indigestion means the state of incomplete digestion of the ingested food. The main reason for indigestion is Agnimandya (weak digestive fire). "
+        },
+        {
+          "title": " Diarrhea ",
+          "detail": " Diarrhea, known as Atisara in Ayurveda, is a condition in which a person suffers from watery stools more than 3 times in a day. "
+        },
+        {
+          "title": " Asthma ",
+          "detail": " Asthma is a condition of inflammation in the respiratory passages due to the formation and accumulation of toxins in the form of mucus which makes it difficult for a person to breathe. In this condition, a person faces repeated attacks of breathlessness and wheezing sound from the chest "
+        },
+        {
+          "title": " Piles ",
+          "detail": " Due to today’s sedentary lifestyle, Piles have become a common problem. It occurs as a result of chronic constipation. This leads to the impairment of all the three doshas, mainly Vata dosha. An aggravated Vata leads to low digestive fire, leading to persistent constipation which might result in pain and swelling around the anal region. "
+        }
+      ]
+    }
+  ],
+  "Diseases": [
+    {
+      "name": "Fever",
+      "symptoms": " flushed face, hot skin, low urine output, loss of appetite, headache, or other symptoms of an infection or illness. ",
+      "imgUrl": " https://www.parents.com/thmb/pk-jLmpCcafxBEjdDSblA47DH7A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1210282813-c2adb0f6218d4e8db2b82008b3f3af37.jpg ",
+      "recover": "Tulsi",
+      "steps": [
+        "steps 1. Boil 1 cup of water.",
+        "Steps 2. Add 10-15 fresh tulsi leaves.",
+        "Steps 3. Steep for 10 minutes.",
+        "Steps 4. Strain and drink 1-2 cups daily.",
+        "Steps 5. Boil 2 cups of water with 20 tulsi leaves.",
+        "Steps 6. Simmer until reduced to 1 cup.",
+        "Steps 7. Strain and drink once or twice daily. "
+      ]
+    },
+    {
+      "name": "skin",
+      "symptoms": " bacteria trapped in skin pores and hair follicles.fungus, parasites, or microorganisms living on the skin.viruses.a weakened immune system.contact with allergens, irritants, or another person's infected skin.genetic factors. ",
+      "imgUrl": " https://media.post.rvohealth.io/wp-content/uploads/2022/04/hives-eczema-differences-body10.jpg ",
+      "recover": "Aloe vera",
+      "steps": [
+        "Steps 1. Cut an aloe vera leaf and extract the gel.",
+        "Steps 2. Apply the gel directly to clean, dry skin.",
+        "Steps 3. Leave it on for 15-20 minutes.",
+        "Steps 4. Rinse off with lukewarm water.",
+        "Steps 5. Use once or twice daily.",
+        "Steps 6. Mix equal parts of aloe vera gel and honey.",
+        "Steps 7. Apply the mixture to your face.",
+        "Steps 8. Leave it on for 10-15 minutes.",
+        "Steps 9. Rinse with lukewarm water.",
+        "Steps 10.Apply 1-2 times a week. "
+      ]
+    },
+    {
+      "name": "Reduce Stress and Depression ",
+      "symptoms": "To reduce stress and depression symptoms, it's essential to adopt healthy lifestyle habits such as regular physical activity, which boosts mood-enhancing chemicals like endorphins. Mindfulness practices, such as meditation and deep breathing exercises, can help calm the mind and reduce anxiety. Maintaining a balanced diet, ensuring adequate sleep, and staying connected with supportive friends or loved ones also play a vital role. Limiting caffeine, alcohol, and negative thought patterns while seeking professional help, like therapy or counseling, can further aid in managing symptoms of stress and depression effectively.",
+      "imgUrl": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ5pmxYx_Ada9M9cBCAp3swq0j-egCLdkk4A&s",
+      "recover": "Mulethi",
+      "steps": [
+        "Steps 1. Boil 1 cup of water.",
+        "Steps 2. Add 1 teaspoon of dried licorice root",
+        "Steps 3. Steep for 5-10 minutes.",
+        "Steps 4. Strain and drink 1-2 times daily.",
+        "Steps 5. Mix 1/2 teaspoon of licorice root powder in water.",
+        "Steps 6. Drink once daily. "
+      ]
+    },
+    {
+      "name": " Kidney stones and Sweeling",
+      "symptoms": " 1.Kidney Stones Severe pain in the lower back, side, or groin Pain during urination Blood in urine Nausea and vomiting Frequent urge to urinate Cloudy or foul-smelling urine. 2.Sweeling Puffiness under the skin, especially in the legs, feet, and ankles Stretched or shiny skin Increased abdominal size Feeling of heaviness or tightness in swollen areas ",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ21jez7s2BA2v3beH6PT8a_qBzXLdcz44jA&s",
+      "recover": "  Kidney Stones",
+      "steps": [
+        "Steps 1.Varun Bark Powder: Take 1-2 teaspoons of powdered bark with warm water twice a day. It helps dissolve stones and promote urine flow.",
+        "Steps 2.Varun Decoction: Boil the bark in water and drink it daily to aid stone removal.",
+        "Steps 3.Sweeling :-Varun Decoction or Extract: Consume the decoction made from boiling the bark in water (1-2 cups a day). This reduces water retention and improves kidney function. "
+      ]
+    }
+  ]
+}
