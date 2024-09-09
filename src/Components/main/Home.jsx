@@ -8,9 +8,9 @@ const Home = () => {
       <div className="">
         <ImageSlider 
           images={[
-           "../../../public/slider1.webp",
-           "../../../public/slider2.webp",
-           "../../../public/slider3.webp",
+           "https://www.dabur.com/_default_upload_bucket/410/image-thumb__410__portalCarousel/Dabur%20Immunity%20Kit%20Ext%20Flip%20Rev@2x.10fc80cf.webp",
+           "https://www.dabur.com/Banner/413/image-thumb__413__portalCarousel/Three%20wish@2x.5a82e2b1.webp",
+           "https://www.dabur.com/Banner/412/image-thumb__412__portalCarousel/home%20banner3-Desk@2x.3477504e.webp",
                  ]}
         />
       </div>
