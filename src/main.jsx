@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import Home from './components/main/Home.jsx';
+import Home from "./Components/main/Home.jsx"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Plants from './Components/main/Plants.jsx'
 import Diseases from './Components/main/Diseases.jsx'
