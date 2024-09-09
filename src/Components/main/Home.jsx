@@ -1,36 +1,7 @@
-import {Suspense} from 'react'
-import {Canvas} from '@react-three/fiber'
-// import {orbitcontrols} from '@react-three/drei'
-import Scene from '../../../public/Scene'
-import { Environment ,OrbitControls} from '@react-three/drei'
-
 import React from 'react';
-
 import ImageSlider from "../utils/ImageSlider"; 
 
 const Home = () => {
-  const plants = [
-    {
-      name: 'Tulsi',
-      imgUrl: 'https://gachwala.in/wp-content/uploads/2022/06/tulsi-plant.jpg',
-      description:
-        'Ocimum tenuiflorum, commonly known as holy basil or tulsi, is an aromatic perennial plant in the family Lamiaceae.',
-      category: 'Ayurveda',
-    },
-    {
-      name: 'Ashwagandha',
-      description:
-        'Withania somnifera, commonly known as ashwagandha, is an evergreen shrub used in Ayurvedic medicine.',
-      category: 'Ayurveda',
-    },
-    {
-      name: 'Aloe Vera',
-      description:
-        'Aloe vera is a succulent plant species that is widely used in traditional medicine and cosmetic products.',
-      category: 'Ayurveda',
-    },
-    
-  ];
 
   return (
     <> 
