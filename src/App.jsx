@@ -1,6 +1,6 @@
 import {useState,useEffect} from 'react'
-import Header from "./components/header/Header"
-import Footer from './components/footer/Footer'
+import Header from "./Components/header/Header"
+import Footer from './Components/footer/Footer';
 import {Outlet} from "react-router-dom"
 import database from '../database.json';
 import { useSearchParams } from 'react-router-dom';
