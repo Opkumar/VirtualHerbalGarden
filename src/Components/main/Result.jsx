@@ -3,7 +3,7 @@ import { useOutletContext } from 'react-router-dom';
 export default function Result() {
   const context = useOutletContext();
   const data = context || []; 
-  console.log(data); 
+  // console.log(data); 
 
 
   
@@ -24,6 +24,24 @@ export default function Result() {
       ) : (
         <p className="text-gray-600">No results found.</p>
       )}
+      <div className="sketchfab-embed-wrapper">
+  {/* <iframe
+    title="Neem Tree"
+    // frameBorder="0"
+    allowFullScreen
+    mozallowfullscreen="true"
+    webkitallowfullscreen="true"
+    allow="autoplay; fullscreen; xr-spatial-tracking"
+    xr-spatial-tracking="true"
+    execution-while-out-of-viewport="true"
+    execution-while-not-rendered="true"
+    // webShare=""
+    src="https://sketchfab.com/models/03edef8009d942d3a3db6fa64cecbe56/embed"
+    className="w-96 h-96"
+  ></iframe> */}
+  
+</div>
+
     </div>
   );
 }

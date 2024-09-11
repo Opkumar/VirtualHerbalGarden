@@ -2,7 +2,6 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 import { useNavigate } from 'react-router-dom';
-
 import useStore from '../utils/useStore';
 
 
@@ -20,13 +19,13 @@ function Header() {
   const [isAnimating, setIsAnimating] = useState(false);
   const handleClick = () => {
     setIsAnimating(true);
-    setTimeout(() => setIsAnimating(false), 3000); // Reset after animation duration
+    setTimeout(() => setIsAnimating(false), 3000);
   };
 
   const [isVisible, setIsVisible] = useState(false);
 
   const handleClick1 = () => {
-    setIsVisible(!isVisible); // Toggle visibility
+    setIsVisible(!isVisible);
   };
 
   return (
@@ -63,12 +62,14 @@ function Header() {
                     <i className="fa-solid fa-magnifying-glass text-[#49A010] text-xl mr-4"></i>
                 </button>
               </form>
+              <NavLink to="/favourite">
               <button className="ml-4">
                 <div className=" mb-[-18px] ml-6 h-5 w-5  bg-red-500 flex justify-center items-center  z-10 relative rounded-full">
                   <div className="text-white">{clickCount}</div>
                 </div>
                 <i className="fa-regular fa-heart text-3xl z-0 text-[#49A010] relative"></i>
               </button>
+              </NavLink>
               <div className="mx-5">
                 <div className="w-10 h-10  ">
                   <img
@@ -86,7 +87,7 @@ function Header() {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"}`
+                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"} cursor-pointer`
                 }
                 to="/"
               >
@@ -96,7 +97,7 @@ function Header() {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"}`
+                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"} cursor-pointer`
                 }
                 to="/Plants"
               >
@@ -106,7 +107,7 @@ function Header() {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"}`
+                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"} cursor-pointer`
                 }
                 to="/Diseases"
               >
@@ -116,7 +117,7 @@ function Header() {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"}`
+                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"} cursor-pointer`
                 }
                 to="/Quizes"
               >
@@ -134,11 +135,11 @@ function Header() {
                 transform: isAnimating ? "translateX(0) scaleX(1)" : "",
               }}
             >
-              <li>Ayurveda</li>
-              <li>Yoga</li>
-              <li>Unani</li>
-              <li>Siddha</li>
-              <li>Homoeopathy</li>
+              <li className="cursor-pointer">Ayurveda</li>
+              <li className="cursor-pointer">Yoga</li>
+              <li className="cursor-pointer">Unani</li>
+              <li className="cursor-pointer">Siddha</li>
+              <li className="cursor-pointer">Homoeopathy</li>
             </ul>
             <div
               onClick={() => {

@@ -1,26 +1,45 @@
-import {useState} from 'react'
+import {useState ,useEffect} from 'react'
 import data from "../../../database.json"
 import { useNavigate } from 'react-router-dom';
 import useStore from '../utils/useStore';
 
 
-
 function Plants() {
   const navigate = useNavigate();
-  const [clickedStates, setClickedStates] = useState(
-    data.plants.map(() => false) 
-  );
+  // const [clickedStates, setClickedStates] = useState(
+  //   data.plants.map(() => false) 
+  // );
 
-  
-  const { clickCount, incrementClickCount, decrementClickCount } = useStore();
+  // const { clickCount, incrementClickCount, decrementClickCount ,indexValue, clickedStates, setClickedStates } = useStore();
+
+  const {
+    clickedStates,
+    initializeClickedStates,
+    toggleClickedState,
+    clickCount,
+  } = useStore();
+
+  useEffect(() => {
+    initializeClickedStates(data.plants.length);
+  }, [data.plants.length, initializeClickedStates]);
 
   const handleClick = (index) => {
-    const updatedStates = [...clickedStates];
-    const wasClicked = updatedStates[index];
-    updatedStates[index] = !wasClicked;
-    setClickedStates(updatedStates);
-    wasClicked ? decrementClickCount() : incrementClickCount();
+    toggleClickedState(index); // Toggle clicked state and update the count
   };
+
+  // const handleClick = (index) => {
+  //    indexValue(index)
+  //   const updatedStates = [...clickedStates];
+  //   const wasClicked = updatedStates[index];
+  //   updatedStates[index] = !wasClicked;
+  //   setClickedStates(updatedStates);
+  //   wasClicked ? decrementClickCount() : incrementClickCount();
+  // };
+
+  // const handleClick = (index) => {
+  //   setClickedStates(index);
+  //    wasClicked ? decrementClickCount() : incrementClickCount();
+  // };
   return (
     <>
      <div className="min-h-screen bg-gray-50 p-6">

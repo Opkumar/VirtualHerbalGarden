@@ -8,6 +8,7 @@ import Plants from './Components/main/Plants.jsx'
 import Diseases from './Components/main/Diseases.jsx'
 import Quizes from './Components/main/Quizes.jsx'
 import Result from './Components/main/Result.jsx';
+import Favourite from './Components/main/Favourite.jsx'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path:"/Quizes",
         element:<Quizes />
+      },
+      {
+        path:"/favourite",
+        element:<Favourite />
       }
       
     ]
