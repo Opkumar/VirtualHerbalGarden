@@ -26,6 +26,7 @@ const Home = () => {
                   <video
                     className="w-full max-w-xs rounded-lg shadow-lg"
                     autoPlay
+                    loop
                     muted
                   >
                     <source
