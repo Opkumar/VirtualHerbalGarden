@@ -17,7 +17,7 @@ export default {
       },
     },
     screens: {
-      'ph': '426px',
+      'ph': '575px',
       // => @media (min-width: 640px) { ... }
 
     },
