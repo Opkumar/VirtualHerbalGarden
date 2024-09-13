@@ -15,7 +15,7 @@ const ImageSlider = ({ images, interval = 8000 }) => {
 
   return (
     <div className="w-full mx-auto">
-      <div className="relative w-full max-h-[450px] overflow-hidden  shadow-lg">
+      <div className="relative w-full h-[400px] ph:h-[450px] overflow-hidden  shadow-lg">
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex}`}

@@ -31,25 +31,27 @@ function Header() {
   return (
     <>
       <header>
-        <nav className="my-4 flex justify-between items-center relative z-0">
-          <div className="flex items-center  ml-5">
-            <img className="w-16" src="./logo.png" alt="logo" />
-            <h1 className="text-3xl ml-5 font-bold text-gray-800">
+        <nav className="ph:my-4 flex justify-between items-center relative z-0">
+          <div className="flex items-center  ml-5 ">
+            <img className="w-11 ph:w-16 " src="./logo.png" alt="logo" />
+            <h1 className="hidden ph:block text-3xl ml-5 font-bold text-gray-800">
               Virtual Herbal Garden
             </h1>
           </div>
           <div className="flex justify-center items-center">
-            <div className="mb-[-45px] w-56 ">
+            <div className="mb-[-45px] w-56  hidden ph:block">
               <div
                 id="google_translate_element"
                 className=" relative z-0  "
               ></div>
               <div className="h-10 w-[80px] bg-white relative z-10 mt-[-45px]"></div>
             </div>
-            <div className="my-4  mr-5 flex justify-between">
+            <div className="my-4  ph:mr-5 flex justify-between items-center">
+            <i className="fa-solid fa-magnifying-glass text-[#49A010] text-2xl mr-4"></i>
+
               <form
                 onSubmit={handleSearch}
-                className="flex  items-center border rounded-md  pl-1"
+                className="hidden ph:flex  items-center border rounded-md  pl-1"
               >
                 <input
                   type="text"
@@ -62,7 +64,10 @@ function Header() {
                     <i className="fa-solid fa-magnifying-glass text-[#49A010] text-xl mr-4"></i>
                 </button>
               </form>
-              <NavLink to="/favourite">
+              <div className="ph:hidden ">
+              <i class="fa-solid fa-language text-4xl text-[#3e61e9]"></i>
+            </div>
+              <NavLink to="/favourite" className={`hidden ph:block`}>
               <button className="ml-4">
                 <div className=" mb-[-18px] ml-6 h-5 w-5  bg-red-500 flex justify-center items-center  z-10 relative rounded-full">
                   <div className="text-white">{clickCount}</div>
@@ -80,10 +85,14 @@ function Header() {
                 </div>
               </div>
             </div>
+            
           </div>
         </nav>
         <nav className="h-12 bg-gray-300 flex justify-between relative z-10  items-center pl-10">
-          <ul className="flex gap-8 hover:cursor-pointer text-xl font-bold text-[#49A010]">
+          <div className="ph:hidden">
+            <i className="fa-solid fa-bars text-3xl"></i>
+          </div>
+          <ul className="hidden ph:flex gap-8 hover:cursor-pointer text-xl font-bold text-[#49A010] ">
             <li>
               <NavLink
                 className={({ isActive }) =>

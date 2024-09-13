@@ -16,6 +16,11 @@ export default {
         slide: 'slide 10s linear infinite',
       },
     },
+    screens: {
+      'ph': '426px',
+      // => @media (min-width: 640px) { ... }
+
+    },
   },
   plugins: [],
 }

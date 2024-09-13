@@ -13,16 +13,16 @@ const Home = () => {
           ]}
         />
       </div>
-      <section className=" py-16">
+      <section className="py-5 ph:py-16 bg-gradient-to-br from-blue-100  to-green-100  ">
         <div className="container mx-auto">
-          <h3 className="text-3xl font-bold  mb-12">
+          <h3 className="text-3xl font-bold ml-2 mb-5 ph:mb-12">
             Why Virtual Herbal Garden?
           </h3>
-          <div className="grid justify-center mt-52">
-            <div className="h-[450px] w-[450px] bg-[#66AA84] relative z-0 mb-[-225px] rounded-lg"></div>
-            <div className="grid   gap-8 relative z-10 mt-[-384px]">
-              <div className="text-center flex items-center gap-5 p-2 border w-[550px] rounded-md ml-[-350px] bg-white">
-                <div className="text-green-800 mb-4 flex justify-center items-center">
+          <div className="grid justify-center ph:mt-52">
+            <div className="h-[450px] w-[450px] bg-[#66AA84] relative z-0 mb-[-225px] rounded-lg  hidden ph:block"></div>
+            <div className="grid   gap-8 relative z-10 ph:mt-[-384px]">
+              <div className="text-center flex items-center gap-5 p-2 border w-[400px] ph:w-[550px] rounded-md ph:ml-[-350px] bg-white">
+                <div className="text-green-800 mb-4 flex justify-center items-center ">
                   <video
                     className="w-full max-w-xs rounded-lg shadow-lg"
                     autoPlay
@@ -38,7 +38,7 @@ const Home = () => {
                 </div>
                 <div className="w-64">
                   <h4 className="text-2xl font-bold">3D model of Plants</h4>
-                  <p>
+                  <p className="hidden ph:block">
                     Our website features interactive 3D models of
                     plants,allowing users to explore each plant from different
                     angles.These models provide a detailed and immersive
@@ -47,10 +47,10 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="text-center flex items-center gap-5 p-2 border w-[550px] rounded-md ml-[300px] mr-[-300px] mt-[-100px] bg-white">
+              <div className="text-center flex items-center gap-5 p-2 border w-[400px] ph:w-[550px] rounded-md ph:ml-[300px] mr-[-300px] ph:mt-[-100px] bg-white">
                 <div className="text-green-800 mb-4">
                   <img
-                    className="w-full h-[259px] max-w-xs rounded-lg shadow-lg"
+                    className="w-full h-[200px] ph:h-[259px] max-w-xs rounded-lg shadow-lg"
                     src="https://hips.hearstapps.com/hmg-prod/images/a-set-of-colorful-potted-plants-on-a-patterned-area-royalty-free-image-1716493110.jpg"
                     alt=""
                   />
@@ -59,17 +59,17 @@ const Home = () => {
                   <h4 className="text-2xl font-bold">
                     Comprehensive details about each plant
                   </h4>
-                  <p>
+                  <p className="hidden ph:block">
                     Comprehensive details about each plant, including its
                     botanical name, common names, habitat, medicinal uses, and
                     methods of cultivation.
                   </p>
                 </div>
               </div>
-              <div className="text-center flex items-center gap-5 p-2 border w-[550px] rounded-md ml-[-350px] mt-[-100px] bg-white">
+              <div className="text-center flex items-center gap-5 p-2 border w-[400px] ph:w-[550px] rounded-md ph:ml-[-350px] ph:mt-[-100px] bg-white">
                 <div className="text-green-800 mb-4">
                   <img
-                    className="w-full h-[259px] max-w-xs rounded-lg shadow-lg"
+                    className="w-full h-[200px] ph:h-[259px] max-w-xs rounded-lg shadow-lg"
                     src="https://res.cloudinary.com/hilnmyskv/image/upload/q_auto,f_auto/v1708025628/Algolia_com_Blog_assets/Featured_images/ecommerce/search-vs-browse-satisfying-user-intent/hszbuhgtfttzieosevjp.png"
                     alt=""
                   />
@@ -78,7 +78,7 @@ const Home = () => {
                   <h4 className="text-2xl font-bold">
                     Search and Filter Options
                   </h4>
-                  <p>
+                  <p className="hidden ph:block">
                     Advanced search functionality to easily locate specific
                     plants and filter them based on various criteria like
                     medicinal uses, region, and type.
@@ -89,10 +89,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="bg-green-50 py-16">
-        <div className="container mx-auto text-center">
+      <section className="bg-green-50 py-16  ">
+        <div className=" mx-auto text-center ph:mx-20">
           <h3 className="text-3xl font-bold mb-12">Ministry of AYUSH</h3>
-          <p className="mb-10 mt-[-20px]">
+          <p className="mb-10 mt-[-20px] mx-2 ph:mx-0">
             Ministry of Ayush launched the Centrally Sponsored Scheme of
             National Ayush Mission (NAM) on 15.09.2014 for implementing through
             States/UTs. The National Ayush Mission (NAM) was approved for its
@@ -105,105 +105,135 @@ const Home = () => {
             financial outlay of Rs. 3399.35 Crores for a period of 5 years up to
             2023-24.
           </p>
-          <div className="flex justify-center mb-10">
+          <div className="flex justify-center mb-10 mx-5 ph:mx-0">
             <img
-              className=""
+              className=" "
               src="https://kgis.ksrsac.in/ayush/images/ayush-icons-1.png"
               alt="Ayush logo"
             />
           </div>
           <div className="grid grid-cols-1  gap-8">
-            <div className="p-6 bg-white rounded-md shadow-md flex">
+            <div className="p-6 bg-white rounded-md shadow-md ph:flex grid mx-4">
+              <h3 className="text-3xl font-bold mb-6 ph:hidden">Ayurveda</h3>
               <div>
                 <img
                   src="https://t3.ftcdn.net/jpg/05/68/27/22/360_F_568272234_QctXAHNIczaboEphLMQJ9fJ6c5WoSH9x.jpg"
                   alt="Plants"
-                  className="w-full rounded-md min-w-96 "
+                  className="w-full rounded-md ph:min-w-96  "
                 />
               </div>
               <div>
-                <h3 className="text-3xl font-bold mb-6">Ayurveda</h3>
-                <p className="text-lg ml-10 mb-6 mr-10 leading-8 ">
+                <h3 className="text-3xl font-bold mb-6 hidden ph:block">Ayurveda</h3>
+                <p className="text-lg ph:mx-10 ph:mb-6  leading-8  ">
                   Ayurveda is a traditional system of medicine that originated
                   in India thousands of years ago. It is based on the belief
                   that the mind and body are interconnected, and that
                   maintaining a balance between the two is essential for good
-                  health.{" "}
+                  health.
                 </p>
               </div>
             </div>
-            <div className="p-6 bg-white rounded-md shadow-md flex">
+            <div className="p-6 bg-white rounded-md shadow-md ph:flex grid mx-4">
               <div>
                 <h3 className="text-3xl font-bold mb-6">
                   Yoga and Naturopathy
                 </h3>
-                <p className="text-lg mb-6 mr-10 leading-8 ">
+
+                <p className="text-lg mb-6 mr-10 leading-8 hidden ph:block">
                   Yoga is a mind-body practice that originated in ancient India
                   and has gained popularity worldwide as a form of exercise and
                   relaxation. It involves a postures, or asanas, that are
                   designed to promote flexibility, strength, and balance, as
                   well as breathing exercises and meditation to promote
-                  relaxation and reduce{" "}
+                  relaxation and reduce
                 </p>
+                <img
+                  src="https://kdham.com/wp-content/uploads/2021/06/Yoga-with-Naturopathy.jpg"
+                  alt="Plants"
+                  className="w-full rounded-md ph:min-w-96  ph:hidden"
+                />
               </div>
               <div>
                 <img
                   src="https://kdham.com/wp-content/uploads/2021/06/Yoga-with-Naturopathy.jpg"
                   alt="Plants"
-                  className="w-full rounded-md min-w-96 "
+                  className="w-full rounded-md min-w-96  hidden ph:block"
                 />
+                <p className="text-lg ph:mx-10 ph:mb-6 leading-8 ph:hidden">
+                  Yoga is a mind-body practice that originated in ancient India
+                  and has gained popularity worldwide as a form of exercise and
+                  relaxation. It involves a postures, or asanas, that are
+                  designed to promote flexibility, strength, and balance, as
+                  well as breathing exercises and meditation to promote
+                  relaxation and reduce
+                </p>
               </div>
             </div>
-            <div className="p-6 bg-white rounded-md shadow-md flex">
+            <div className="p-6 bg-white rounded-md shadow-md ph:flex grid mx-4">
+               <h3 className="ext-3xl font-bold mb-6 ph:hidden">Unani</h3>
               <div>
                 <img
                   src="https://t4.ftcdn.net/jpg/03/36/29/23/360_F_336292383_KXyNHd0Xh7G0mUXm1OQvywS4VXyY4QkF.jpg"
                   alt="Plants"
-                  className="w-full rounded-md min-w-96 "
+                  className="w-full rounded-md ph:min-w-96 "
                 />
               </div>
               <div>
-                <h3 className="text-3xl font-bold mb-6">Unani</h3>
-                <p className="text-lg ml-10 mb-6 mr-10 leading-8 ">
+                <h3 className="text-3xl font-bold mb-6 hidden ph:block">Unani</h3>
+                <p className="text-lg ph:mx-10 ph:mb-6  leading-8  ">
                   Unani medicine offers a holistic approach to health and
                   well-being and takes into account the physical, mental, and
                   emotional aspects of health. The diagnosis is based on the
                   examination of the patient's pulse, urine, and stool, as well
-                  as their medical history and symptoms.{" "}
+                  as their medical history and symptoms.
                 </p>
               </div>
             </div>
-            <div className="p-6 bg-white rounded-md shadow-md flex">
+            <div className="p-6 bg-white rounded-md shadow-md ph:flex grid mx-4">
               <div>
                 <h3 className="text-3xl font-bold mb-6">Siddha</h3>
-                <p className="text-lg mb-6 mr-10 leading-8 ">
+                <p className="text-lg mb-6 mr-10 leading-8  hidden ph:block">
                   Ayurveda and is believed to have been developed by the
                   Siddhars, or holy men of ancient India.Siddha medicine focuses
                   on maintaining a balance between the five elements of the
                   body: earth, water, fire, air, and ether. It believes that
                   good health is achieved when these elements are in balance and
-                  disease occurs when there is an imbalance.{" "}
+                  disease occurs when there is an imbalance.
                 </p>
+                <img
+                  src="https://virutchamclinic.com/wp-content/uploads/2017/06/siddha-870x450.jpg"
+                  alt="Plants"
+                  className="w-full rounded-md ph:min-w-96 ph:hidden "
+                />
               </div>
               <div>
                 <img
                   src="https://virutchamclinic.com/wp-content/uploads/2017/06/siddha-870x450.jpg"
                   alt="Plants"
-                  className="w-full rounded-md min-w-96 "
+                  className="w-full rounded-md min-w-96  hidden ph:block"
                 />
+                 <p className="text-lg mb-6 mr-10 leading-8 ph:hidden ">
+                  Ayurveda and is believed to have been developed by the
+                  Siddhars, or holy men of ancient India.Siddha medicine focuses
+                  on maintaining a balance between the five elements of the
+                  body: earth, water, fire, air, and ether. It believes that
+                  good health is achieved when these elements are in balance and
+                  disease occurs when there is an imbalance.
+                </p>
               </div>
             </div>
-            <div className="p-6 bg-white rounded-md shadow-md flex">
+            <div className="p-6 bg-white rounded-md shadow-md ph:flex grid mx-4">
+              <h3 className="ext-3xl font-bold mb-6 ph:hidden">Homeopathy</h3>
               <div className="">
                 <img
                   src="https://t3.ftcdn.net/jpg/01/98/32/64/360_F_198326436_IE9KDVfC7Dd0gpqNDLc7gP5GOdrzV6Bd.jpg"
                   alt="Plants"
-                  className="w-full min-w-96  rounded-md"
+                  className="w-full ph:min-w-96  rounded-md"
                 />
               </div>
               <div>
-                <h3 className="text-3xl font-bold mb-6">Homeopathy</h3>
-                <p className="text-lg ml-10 mb-6 mr-10 leading-8 ">
+                <h3 className="text-3xl font-bold mb-6 hidden ph:block">Homeopathy</h3>
+                <p className="text-lg ph:mx-10 ph:mb-6  leading-8 ">
                   healthy person can also be used to treat similar symptoms in a
                   sick person.Homoeopathic remedies are made from natural
                   substances, such as plants, minerals, and animal products, and
@@ -219,8 +249,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="bg-white p-20 pl-10">
-        <div className="flex mx-auto   gap-12">
+      <section className="bg-white p-5 ph:p-20 ph:pl-10">
+        <div className="hidden mx-auto   gap-5  ph:flex">
           <div>
             <h3 className="text-3xl font-bold mb-6">
               Decorate your home with plants
@@ -238,6 +268,26 @@ const Home = () => {
               alt="Plants"
               className="w-full rounded-md"
             />
+          </div>
+        </div>
+        <div className="grid ph:hidden mx-auto   gap-12">
+          <div>
+            <h3 className="text-3xl font-bold mb-6">
+              Decorate your home with plants
+            </h3>
+            <img
+              src="https://nurserylive.com/cdn/shop/articles/House_Calls_Herman_Pelosi_Brooklyn_living_room_Gabriella_Herman.0_cc59416e-66f6-4ebd-a50c-91758c8c2e0d-979319.jpg?v=1679747969"
+              alt="Plants"
+              className="w-full rounded-md"
+            />
+          </div>
+            <p className="text-lg mb-6 mr-10 leading-8 ">
+              Plants are an easy way to transform your space, whether your style
+              is high drama or subtle minimalism. Grouping iconic plants like
+              Fidel, Robin, and Niccolia will inspire a sense of elegance and
+              help create a microclimate.
+            </p>
+          <div>
           </div>
         </div>
       </section>
