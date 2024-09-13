@@ -170,7 +170,7 @@ const Home = () => {
               </div>
             </div>
             <div className="p-6 bg-white rounded-md shadow-md ph:flex grid mx-4">
-               <h3 className="ext-3xl font-bold mb-6 ph:hidden">Unani</h3>
+               <h3 className="text-3xl font-bold mb-6 ph:hidden">Unani</h3>
               <div>
                 <img
                   src="https://t4.ftcdn.net/jpg/03/36/29/23/360_F_336292383_KXyNHd0Xh7G0mUXm1OQvywS4VXyY4QkF.jpg"
@@ -223,7 +223,7 @@ const Home = () => {
               </div>
             </div>
             <div className="p-6 bg-white rounded-md shadow-md ph:flex grid mx-4">
-              <h3 className="ext-3xl font-bold mb-6 ph:hidden">Homeopathy</h3>
+              <h3 className="text-3xl font-bold mb-6 ph:hidden">Homeopathy</h3>
               <div className="">
                 <img
                   src="https://t3.ftcdn.net/jpg/01/98/32/64/360_F_198326436_IE9KDVfC7Dd0gpqNDLc7gP5GOdrzV6Bd.jpg"
