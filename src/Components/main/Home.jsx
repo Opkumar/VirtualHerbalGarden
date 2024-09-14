@@ -28,6 +28,7 @@ const Home = () => {
                     autoPlay
                     loop
                     muted
+                    playsInline
                   >
                     <source
                       src="https://res.cloudinary.com/dnnxdiqqt/video/upload/v1726071494/Screen_Recording_2024-09-05_at_12.15.30_AM_u40udz.mov"
