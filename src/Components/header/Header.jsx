@@ -1,16 +1,16 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
-import { useNavigate } from 'react-router-dom';
-import useStore from '../utils/useStore';
-
+import { useNavigate } from "react-router-dom";
+import useStore from "../utils/useStore";
 
 function Header() {
   const navigate = useNavigate();
+  const [isFormVisible, setIsFormVisible] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
 
   const { clickCount } = useStore();
-  
+
   const handleSearch = (e) => {
     e.preventDefault();
     navigate(`/Results?query=${searchTerm}`);
@@ -30,7 +30,7 @@ function Header() {
 
   return (
     <>
-      <header>
+      <header className="relative z-0">
         <nav className="ph:my-4 flex justify-between items-center relative z-0">
           <div className="flex items-center  ml-5 ">
             <img className="w-11 ph:w-16 " src="./logo.png" alt="logo" />
@@ -47,8 +47,43 @@ function Header() {
               <div className="h-10 w-[80px] bg-white relative z-10 mt-[-45px]"></div>
             </div>
             <div className="my-4  ph:mr-5 flex justify-between items-center">
-            <i className="fa-solid fa-magnifying-glass text-[#49A010] text-2xl mr-4"></i>
+              {isFormVisible && (
+                <div className="flex justify-center items-center ph:hidden">
+                <form
+                  onSubmit={handleSearch}
+                  className="flex items-center border rounded-md pl-1"
+                >
+                  <input
+                    type="text"
+                    placeholder="Search plants..."
+                    className="px-4 py-2 w-full max-w-xs focus:outline-none"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                  />
+                  <button type="submit">
+                    <i className="fa-solid fa-magnifying-glass text-[#49A010] text-xl mr-4"></i>
+                  </button>
+                </form>
+                  <button className={`
+                    ${isFormVisible?"":""}
+                    w-6 h-6  bg-white border rounded-full mt-[-40px]  ml-[-10px] flex justify-center items-center`}
+                    onClick={() =>{ 
+                      setIsFormVisible(!isFormVisible)
+    
+                    }} >
+                  <i className="fa-solid fa-xmark text-xl text-red-500"></i>
+                  </button>
+                  </div>
+              )}
+              <i
+                className={`fa-solid fa-magnifying-glass ph:hidden
+                    ${isFormVisible? "hidden":"block"}
+                     text-[#49A010] text-2xl ph:mr-4`}
+                onClick={() =>{ 
+                  setIsFormVisible(!isFormVisible)
 
+                }}
+              ></i>
               <form
                 onSubmit={handleSearch}
                 className="hidden ph:flex  items-center border rounded-md  pl-1"
@@ -61,31 +96,27 @@ function Header() {
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
                 <button type="submit">
-                    <i className="fa-solid fa-magnifying-glass text-[#49A010] text-xl mr-4"></i>
+                  <i className="fa-solid fa-magnifying-glass text-[#49A010] text-xl mr-4"></i>
                 </button>
               </form>
-              <div className="ph:hidden ">
-              <i class="fa-solid fa-language text-4xl text-[#3e61e9]"></i>
-            </div>
               <NavLink to="/favourite" className={`hidden ph:block`}>
-              <button className="ml-4">
-                <div className=" mb-[-18px] ml-6 h-5 w-5  bg-red-500 flex justify-center items-center  z-10 relative rounded-full">
-                  <div className="text-white">{clickCount}</div>
-                </div>
-                <i className="fa-regular fa-heart text-3xl z-0 text-[#49A010] relative"></i>
-              </button>
+                <button className="ml-4">
+                  <div className=" mb-[-18px] ml-6 h-5 w-5  bg-red-500 flex justify-center items-center  z-10 relative rounded-full">
+                    <div className="text-white">{clickCount}</div>
+                  </div>
+                  <i className="fa-regular fa-heart text-3xl z-0 text-[#49A010] relative"></i>
+                </button>
               </NavLink>
               <div className="mx-5">
                 <div className="w-10 h-10  ">
                   <img
-                    className="rounded-full w-10 h-10"
+                    className="rounded-full w-10 h-10 "
                     src="https://gachwala.in/wp-content/uploads/2022/06/tulsi-plant.jpg"
                     alt="login"
                   />
                 </div>
               </div>
             </div>
-            
           </div>
         </nav>
         <nav className="h-12 bg-gray-300 flex justify-between relative z-10  items-center pl-10">
@@ -96,7 +127,9 @@ function Header() {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"} cursor-pointer`
+                  `${
+                    isActive ? "text-[#de6c20]" : "text-[#49A010]"
+                  } cursor-pointer`
                 }
                 to="/"
               >
@@ -106,7 +139,9 @@ function Header() {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"} cursor-pointer`
+                  `${
+                    isActive ? "text-[#de6c20]" : "text-[#49A010]"
+                  } cursor-pointer`
                 }
                 to="/Plants"
               >
@@ -116,7 +151,9 @@ function Header() {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"} cursor-pointer`
+                  `${
+                    isActive ? "text-[#de6c20]" : "text-[#49A010]"
+                  } cursor-pointer`
                 }
                 to="/Diseases"
               >
@@ -126,7 +163,9 @@ function Header() {
             <li>
               <NavLink
                 className={({ isActive }) =>
-                  `${isActive ? "text-[#de6c20]" : "text-[#49A010]"} cursor-pointer`
+                  `${
+                    isActive ? "text-[#de6c20]" : "text-[#49A010]"
+                  } cursor-pointer`
                 }
                 to="/Quizes"
               >
@@ -163,7 +202,8 @@ function Header() {
           </div>
         </nav>
       </header>
-      {/* <ResultContainer data={data} /> */}
+     
+      
     </>
   );
 }
