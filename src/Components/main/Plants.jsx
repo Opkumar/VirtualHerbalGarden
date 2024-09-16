@@ -23,9 +23,9 @@ function Plants() {
   return (
     <>
      <div className="min-h-screen bg-gray-50 p-6">
-         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+         <div className="grid grid-cols-1 sm:grid-cols-2 ph:grid-cols-3 gap-6">
            {data.plants.map((plant, index) => (
-             <div key={index} className="bg-white p-4 rounded-lg shadow-lg bg-gradient-to-br from-blue-200  to-green-200  ">
+             <div key={index} className="bg-white p-4 rounded-lg shadow-lg  bg-gradient-to-br from-blue-200  to-green-200  ">
                <div className="mb-4">
                  <span className="inline-block bg-green-500 text-white text-xs px-2 py-1 rounded-full">
                    {plant.category}

@@ -175,7 +175,7 @@ function Header() {
           </ul>
           <div className="flex justify-center items-center">
             <ul
-              className={`flex gap-2  px-3 relative z-0 bg-slate-100 rounded-l-md transition-transform duration-50 ease-linear  ${
+              className={`flex gap-2 py-[1px]  px-3 relative z-0 bg-slate-100 rounded-l-md transition-transform duration-50 ease-linear  ${
                 isAnimating ? "animate-slidein" : ""
               } ${isVisible ? "block" : "hidden"}`}
               style={{
@@ -183,11 +183,11 @@ function Header() {
                 transform: isAnimating ? "translateX(0) scaleX(1)" : "",
               }}
             >
-              <li className="cursor-pointer">Ayurveda</li>
-              <li className="cursor-pointer">Yoga</li>
-              <li className="cursor-pointer">Unani</li>
-              <li className="cursor-pointer">Siddha</li>
-              <li className="cursor-pointer">Homoeopathy</li>
+              <li className="cursor-pointer border rounded-md text-sm bg-blue-200 px-1 ">Ayurveda</li>
+              <li className="cursor-pointer border rounded-md text-sm bg-blue-200 px-1 ">Yoga</li>
+              <li className="cursor-pointer border rounded-md text-sm bg-blue-200 px-1 ">Unani</li>
+              <li className="cursor-pointer border rounded-md text-sm bg-blue-200 px-1 ">Siddha</li>
+              <li className="cursor-pointer border rounded-md text-sm bg-blue-200 px-1 ">Homoeopathy</li>
             </ul>
             <div
               onClick={() => {
@@ -202,8 +202,14 @@ function Header() {
           </div>
         </nav>
       </header>
-     
-      
+      {/* <section className="-mt-52  absolute z-50 w-screen h-screen  bg-gray-200  ">
+        <div className=""></div>
+        <div className="">
+          
+        </div>
+
+      </section>
+       */}
     </>
   );
 }
