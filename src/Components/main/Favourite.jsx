@@ -4,29 +4,37 @@ import { useNavigate } from 'react-router-dom';
 import data from "../../../database.json"
 
 function Favourite() {
-  // const {indexNum } = useStore();
-  
   const navigate = useNavigate();
-  const [clickedStates, setClickedStates] = useState(
-    data.plants.map(() => false) 
-  );
   
-  const { indexNum} = useStore();
+  const { indexNum,toggleClickedState} = useStore();
 
-  const newIndexNum = [...new Set(indexNum)]
-  // console.log(indexNum)
+  const newIndexNumber = indexNum.filter((om)=>om!==null)
+  
 
+  const handleClick = (index) => {
+    toggleClickedState(index); 
+  };
+  
 
   return (
     <>
      <div className="min-h-screen bg-gray-50 p-6">
          <div className="grid grid-cols-1 sm:grid-cols-2 ph:grid-cols-3 gap-6">
-           {newIndexNum.map((plant, index) => (
+           {newIndexNumber.map((plant, index) => (
              <div key={index} className="bg-white p-4 rounded-lg shadow-lg bg-gradient-to-br from-blue-200  to-green-200 ">
-               <div className="mb-4">
+               <div className="mb-4 flex justify-between">
                  <span className="inline-block bg-green-500 text-white text-xs px-2 py-1 rounded-full">
                    {data.plants[plant].category}
                  </span>
+                 <div 
+                 onClick={()=>{
+                  handleClick(plant)
+                  // decrementClickCount(),
+                  // deleteFav(plant)
+                }}
+                 className="bg-white rounded-full flex justify-center items-center border w-8 h-8 -mt-6 -mr-6 cursor-pointer">
+                   <i className="fa-solid fa-xmark text-[28px] text-red-500 overflow-hidden"></i>
+                 </div>
                </div>
                <div className="flex justify-center mb-2">
                <img className='h-[26rem] w-[26rem] rounded' src={data.plants[plant].imgUrl} alt="image " />

@@ -44,7 +44,7 @@ function Plants() {
                <div
                   onClick={() => handleClick(index)} 
                   className={`mr-5 text-3xl ${
-                    clickedStates[index] ? 'text-red-500' : 'text-[#49A010] cursor-pointer'
+                    clickedStates[index] ? 'text-red-500 cursor-pointer' : 'text-[#49A010] cursor-pointer'
                   }`}
                 >
                <i className="fa-solid fa-heart"></i>
